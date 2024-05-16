@@ -25,5 +25,6 @@
 # Raise a number to a power 
 decimal_number = float(input('Please enter a decimal number: '))
 exponenet = float(input("Please enter a value to raise number to: "))
+# pow() Returns the value of x to the power of y
 raised_value = pow(decimal_number, exponenet)
 print('The value is', raised_value)
